@@ -8,14 +8,14 @@ class Pages extends Controller {
 
 	public function index() {
 		$data = [
-			'title' => 'Welcome'
+			'title' => 'Wassup nigga !!'
 		];
 		$this->view('pages/index', $data);
 	}
 	
 	public function about() {
 		$data = [
-			'title' => 'About Us'
+			'title' => 'About me'
 		];
 		$this->view('pages/about', $data);
 	}
