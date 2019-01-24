@@ -1,9 +1,5 @@
 <?php
 
-/*/
-/* Loads the models and views
-/*/
-
 class Controller {
 
 	public function model($model) {
